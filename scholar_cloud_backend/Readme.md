@@ -30,7 +30,7 @@ We recommend running the project inside a virtual environment.
 
 - Clone the project using git 
 
-  `git clone `
+  `git clone https://github.com/abhinavkashyap92/scholar_cloud.git`
 
 - Run the setup.py file to install the dependencies 
 
@@ -57,7 +57,7 @@ We recommend running the project inside a virtual environment.
 
 ## 4. Scripts to populate the Database 
 
-- Setting up the database has been made easy for developers. Just run `populate_db ---corpus_filepath=/path/to/file/downloaded/in/step3`.  The full path to the corpus file that you downloaded from semantic scholar needs to be provided
+- Setting up the database has been made easy for developers. Just run `populate_db --corpus_filepath=/path/to/file/downloaded/in/step3`.  The full path to the corpus file that you downloaded from semantic scholar needs to be provided
 -  We are making API calls to the Semantic Scholar. It takes around **15-20** **mins** for the database to populate.
 
 
