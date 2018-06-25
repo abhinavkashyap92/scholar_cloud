@@ -33,6 +33,7 @@ REQUIRED = [
     'Flask',
     'Click',
     'Sphinx',
+    'sphinx-autobuild',
     'pytest',
     'pytest-watch'
 ]
