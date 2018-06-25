@@ -1,0 +1,31 @@
+{
+  "name": "scholar_cloud_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "rc-slider": "^8.6.1",
+    "react": "^16.4.1",
+    "react-autosuggest": "^9.3.4",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-wordcloud": "git+https://github.com/chrisrzhou/react-wordcloud.git"
+  },
+  "scripts": {
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
+    "jsdoc": "^3.5.5",
+    "react-styleguidist": "^7.0.17"
+  }
+}
