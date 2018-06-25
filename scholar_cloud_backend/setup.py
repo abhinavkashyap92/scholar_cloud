@@ -108,6 +108,7 @@ setup(
     url=URL,
     packages=find_packages(exclude=('tests',)),
     install_requires=REQUIRED,
+    setup_requires=REQUIRED,
     include_package_data=True,
     license='MIT',
     classifiers=[
