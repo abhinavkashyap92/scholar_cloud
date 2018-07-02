@@ -1,4 +1,4 @@
-# Scholar Cloud's Backend code 
+# Scholar Cloud's Back-end
 
 
 
@@ -23,6 +23,9 @@ You need to have atlesat have these installed in your system
 - **_pip_**
 
   You can visit https://docs.mongodb.com/manual/installation/ for installation. pip is already installed if you have installed python properly 
+
+- **_lint_**
+  Please follow the PEP8 guideleines https://www.python.org/dev/peps/pep-0008/? guidelines for coding. We would suggest finding the PEP8 plugin for your favorite editor for ease of use.
 
 We recommend running the project inside a virtual environment.
 
